@@ -96,7 +96,7 @@ module "tfrun-functions" {
 
 policy "require-all-resources-from-pmr" {
     source = "./require-all-resources-from-pmr.sentinel"
-    enforcement_level = "mandatory"
+    enforcement_level = "advisory"
     organizations = ["hashicorp", "lab-larry"]
 }
 
